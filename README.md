@@ -5,7 +5,7 @@ A list of working demo codes for practicing webdev
 
 **Analog Clock**
 
-[source](https://github.com/alaksandarjesus/demos/tree/main/html-js-css/analog-clock)  
+[source](https://github.com/alaksandarjesus/demos/tree/main/html-js-css/analog-clock-new)  
 
 [demo](https://jsfiddle.net/alaksandarjesus/szmw82fa/)
 

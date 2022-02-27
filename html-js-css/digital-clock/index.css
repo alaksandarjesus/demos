@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    position: relative;
+    width:75px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: insegment-block;
+}
+.seperator{
+    margin-left:10px;
+    margin-right: 10px;
+    color: greenyellow;
+    font-size: 60px;
+}
+
+.top-0{
+    top:0;
+}
+.bottom-0{
+    bottom:0;
+}
+.left-0{
+    left:0;
+}
+.right-0{
+    right:0;
+}
+.top-50{
+    top:50%;
+}
+.top-50-m-h{
+    top: calc(50% - 6px);
+}
+
+
+.segment{
+    position:absolute;
+
+}
+.segment.active{
+    
+    background-color: greenyellow;
+    border:2px solid greenyellow;
+    z-index: 100;
+}
+.segment-h{
+    width: 71px;
+    height: 6px;
+}
+.segment-v{
+    height: 71px;
+    width: 6px;
+}

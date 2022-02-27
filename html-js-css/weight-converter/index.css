@@ -1,0 +1,18 @@
+.inline-block{
+    display:inline-block;
+  }
+  table{
+  width: 100%;
+  border-collapse: collapse;
+  }
+  table th,table td{
+  border:1px solid black;
+  }
+  .result-wrapper{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  }
+  .result{
+  display:none;
+  }

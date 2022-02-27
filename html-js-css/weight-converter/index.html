@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h4>In this example, only tonne to other unit conversion is considered. Fill the table for other values using https://tinyurl.com/2p87mpw9 </h4>
+
+<div class="inline-block">
+<div>
+  <input type="text" id="valsa">
+</div>
+<div>
+  <select name="" id="unitsa">
+  <option value="tonne">tonne</option>
+<option value="Kilogram">Kilogram</option>
+<option value="Gram">Gram</option>
+<option value="Milligram">Milligram</option>
+<option value="Microgram">Microgram</option>
+<option value="Imperial ton">Imperial ton</option>
+<option value="US ton">US ton</option>
+<option value="Stone">Stone</option>
+<option value="Pound">Pound</option>
+<option value="Ounce">Ounce</option>
+</select>
+</div>
+</div>
+<div class="inline-block">
+<div><input type="text" id="valsb"></div>
+<div>
+  <select name="" id="unitsb">
+   <option value="tonne">tonne</option>
+<option value="Kilogram">Kilogram</option>
+<option value="Gram">Gram</option>
+<option value="Milligram">Milligram</option>
+<option value="Microgram">Microgram</option>
+<option value="Imperial ton">Imperial ton</option>
+<option value="US ton">US ton</option>
+<option value="Stone">Stone</option>
+<option value="Pound">Pound</option>
+<option value="Ounce">Ounce</option>
+</select>
+</div>
+</div>
+<div class="result-wrapper">
+	<button id="calculate" onclick="capture()">Calculate</button>
+	<div class="result">The Result is = <span></span></div>
+</div>
+<div>
+	<table id="conversionTable">
+	<thead>
+		<tr>
+		<th></th>
+			<th>tonne</th>
+<th>Kilogram</th>
+<th>Gram</th>
+<th>Milligram</th>
+<th>Microgram</th>
+<th>Imperial ton</th>
+<th>US ton</th>
+<th>Stone</th>
+<th>Pound</th>
+<th>Ounce</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+				<th>tonne</th>
+			<td>1</td>
+			<td>1000</td>
+			<td>1e+6</td>
+			<td>1e+9</td>
+			<td>1e+12</td>
+			<td>0.984207</td>
+			<td>1.102311840034</td>
+			<td>157.47312000485712247</td>
+			<td>2204.6236800679998851</td>
+			<td></td>
+		</tr>
+		<tr>
+				<th>Kilogram</th>
+			<td>0.001</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Gram</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Milligram</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Microgram</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Imperial ton</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>US ton</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Stone</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Pound</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Ounce</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
